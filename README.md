@@ -1,8 +1,8 @@
-# Cotizador de Criptos
+# Administrador de Clientes
 
 ## Tabla de Contenido
 
-- [Cotizador de Criptos](#cotizador-de-criptos)
+- [Administrador de Clientes](#administrador-de-clientes)
   - [Tabla de Contenido](#tabla-de-contenido)
   - [Capturas](#capturas)
   - [Links](#links)
@@ -20,13 +20,15 @@
 
 ## Links
 
-- [Sitio Online](https://helpful-sprinkles-d8148d.netlify.app/)
+- [Sitio Online]()
 
 ## Construido con
 
 - Vite
 - React
 - Tailwind CSS
+- React Router
+- JSON Server
 
 ## Autor
 
