@@ -9,7 +9,7 @@
       "notas": "Usuario namber guan"
     },
     {
-      "nombre": "Juan",
+      "nombre": "Juan Perez",
       "empresa": "Juan Inc.",
       "mail": "juan@correo.com",
       "telefono": "12345678",
@@ -31,14 +31,6 @@
       "telefono": "444444444444",
       "notas": "El cuartillo",
       "id": 4
-    },
-    {
-      "nombre": "Poquin Datin",
-      "empresa": "DatosPocos",
-      "mail": "pocos@correo.com",
-      "telefono": "",
-      "notas": "",
-      "id": 5
     }
   ]
 }

@@ -30,7 +30,8 @@
 - React Router
 - Formik
 - Yup
-- JSON Server
+- JSON ServerSpin
+- SpinKit
 
 ## Autor
 
