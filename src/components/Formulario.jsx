@@ -1,9 +1,12 @@
 import React from "react";
 import { Formik, Form, Field } from "formik";
+import { useNavigate } from "react-router-dom";
 import * as Yup from "yup";
 import Alerta from "./Alerta";
 
 const Formulario = () => {
+	const navigate = useNavigate();
+
 	const nuevoClienteSchema = Yup.object().shape({
 		nombre: Yup.string()
 			.min(3, "El nombre es muy corto")
@@ -11,11 +14,31 @@ const Formulario = () => {
 			.required("El nombre del cliente es obligatorio"),
 		empresa: Yup.string().required("El nombre de la empresa es obligatorio"),
 		mail: Yup.string().email("Mail no válido").required("El mail es obligatorio"),
-		telefono: Yup.number().integer("Número no válido").positive('Número no válido').typeError("Número no válido"),
+		telefono: Yup.number()
+			.integer("Número no válido")
+			.positive("Número no válido")
+			.typeError("Número no válido"),
 	});
 
-	const handleSubmit = (valores) => {
-		console.log(valores);
+	const handleSubmit = async (valores) => {
+		try {
+			const url = "http://localhost:3000/clientes";
+
+			const respuesta = await fetch(url, {
+				method: "POST",
+				body: JSON.stringify(valores),
+				headers: {
+					"Content-Type": "application/json",
+				},
+			});
+
+			// const resultado = await respuesta.json();
+			// console.log(resultado);
+
+			navigate("/clientes");
+		} catch (error) {
+			console.log(error);
+		}
 	};
 
 	return (
@@ -30,11 +53,14 @@ const Formulario = () => {
 					telefono: "",
 					notas: "",
 				}}
-				onSubmit={(values) => handleSubmit(values)}
+				onSubmit={async (values, { resetForm }) => {
+					await handleSubmit(values);
+
+					resetForm();
+				}}
 				validationSchema={nuevoClienteSchema}
 			>
 				{({ errors, touched }) => {
-					console.log(touched);
 					return (
 						<Form className="mt-10">
 							<div>

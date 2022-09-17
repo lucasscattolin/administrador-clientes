@@ -1,0 +1,44 @@
+{
+  "clientes": [
+    {
+      "id": 1,
+      "nombre": "Lucas Scattolin",
+      "empresa": "Scattech",
+      "mail": "scatto.lucas@gmail.com",
+      "telefono": "2236695258",
+      "notas": "Usuario namber guan"
+    },
+    {
+      "nombre": "Juan",
+      "empresa": "Juan Inc.",
+      "mail": "juan@correo.com",
+      "telefono": "12345678",
+      "notas": "Cliente recomendado por Lucas",
+      "id": 2
+    },
+    {
+      "nombre": "El Tercero",
+      "empresa": "Third",
+      "mail": "third@tercero.com",
+      "telefono": "33333333",
+      "notas": "Soy el tercero pa.",
+      "id": 3
+    },
+    {
+      "nombre": "El cuarto",
+      "empresa": "Cuartito",
+      "mail": "cuartito@four.com",
+      "telefono": "444444444444",
+      "notas": "El cuartillo",
+      "id": 4
+    },
+    {
+      "nombre": "Poquin Datin",
+      "empresa": "DatosPocos",
+      "mail": "pocos@correo.com",
+      "telefono": "",
+      "notas": "",
+      "id": 5
+    }
+  ]
+}

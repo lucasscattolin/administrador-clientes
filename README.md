@@ -20,7 +20,7 @@
 
 ## Links
 
-- [Sitio Online]()
+- [Sitio Online](https://storied-kataifi-19f3e7.netlify.app/)
 
 ## Construido con
 
@@ -28,6 +28,8 @@
 - React
 - Tailwind CSS
 - React Router
+- Formik
+- Yup
 - JSON Server
 
 ## Autor
