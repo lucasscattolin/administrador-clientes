@@ -10,11 +10,11 @@ const Layout = () => {
 				<h2 className="text-4xl font-black text-center text-white">ADMIN CLIENTES</h2>
 
 				<nav className="mt-10">
-					<Link to="/clientes" className={`${urlActual === "/clientes" ? "text-blue-300" : "text-white"} text-white text-2xl block mt-2 hover:text-blue-400`}>
+					<Link to="/" className={`${urlActual === "/" ? "text-blue-300" : "text-white"} text-white text-2xl block mt-2 hover:text-blue-400`}>
 						Clientes
 					</Link>
 
-					<Link to="/clientes/nuevo" className={`${urlActual === "/clientes/nuevo" ? "text-blue-300" : "text-white"} text-white text-2xl block mt-2 hover:text-blue-400`}>
+					<Link to="/nuevo" className={`${urlActual === "/nuevo" ? "text-blue-300" : "text-white"} text-white text-2xl block mt-2 hover:text-blue-400`}>
 						Nuevo Cliente
 					</Link>
 				</nav>
