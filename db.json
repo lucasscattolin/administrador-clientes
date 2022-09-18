@@ -1,28 +1,44 @@
 {
   "clientes": [
     {
-      "nombre": "Lucas Scattolin",
-      "empresa": "Scattech",
-      "mail": "scatto.lucas@gmail.com",
-      "telefono": "2236695258",
-      "notas": "Usuario namber guan",
-      "id": 1
-    },
-    {
-      "nombre": "Juan Perez",
-      "empresa": "Juan Inc.",
-      "mail": "juan@correo.com",
-      "telefono": "12345678",
-      "notas": "Cliente recomendado por Lucas",
-      "id": 2
-    },
-    {
-      "nombre": "El Tercero",
-      "empresa": "Third",
-      "mail": "third@tercero.com",
-      "telefono": "33333333",
-      "notas": "Soy el tercero pa.",
+      "nombre": "Cliente 1",
+      "empresa": "Empresa 1",
+      "mail": "cliente1@empresa1.com",
+      "telefono": "123456789",
+      "notas": "Datos del cliente 1.",
       "id": 3
+    },
+    {
+      "nombre": "Cliente 2",
+      "empresa": "Empresa 2",
+      "mail": "cliente2@empresa2.com",
+      "telefono": "234567891",
+      "notas": "Datos del cliente 2.",
+      "id": 4
+    },
+    {
+      "nombre": "Cliente 3",
+      "empresa": "Empresa 3",
+      "mail": "cliente3@empresa3.com",
+      "telefono": "345678912",
+      "notas": "Datos del cliente 3.",
+      "id": 5
+    },
+    {
+      "nombre": "Cliente 4",
+      "empresa": "Empresa 4",
+      "mail": "cliente4@empresa4.com",
+      "telefono": "456789123",
+      "notas": "Datos del cliente 4.",
+      "id": 6
+    },
+    {
+      "nombre": "Cliente 5",
+      "empresa": "Empresa 5",
+      "mail": "cliente5@empresa5.com",
+      "telefono": "567891234",
+      "notas": "Datos del cliente 5.",
+      "id": 7
     }
   ]
 }

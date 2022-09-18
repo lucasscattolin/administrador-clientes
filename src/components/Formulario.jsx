@@ -153,7 +153,7 @@ const Formulario = ({ cliente, cargando }) => {
 							<input
 								type="submit"
 								value={cliente.nombre ? `Editar Cliente` : `Agregar Cliente`}
-								className="mt-5 w-full bg-blue-800 p-3 text-white uppercase font-bold text-lg"
+								className="mt-5 w-full bg-blue-800 p-3 text-white uppercase font-bold text-lg cursor-pointer"
 							/>
 						</Form>
 					);

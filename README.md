@@ -5,22 +5,23 @@
 - [Administrador de Clientes](#administrador-de-clientes)
   - [Tabla de Contenido](#tabla-de-contenido)
   - [Capturas](#capturas)
-  - [Links](#links)
   - [Construido con](#construido-con)
   - [Autor](#autor)
 
 ## Capturas
 
 <p align="center">
-  <img src="src/img/final/Desktop.png" width="900">
+  <img src="src/img/final/Desktop (1).png" width="900">
 </p>
 <p align="center">
-  <img src="src/img/final/Mobile.png" width="300">
+  <img src="src/img/final/Desktop (2).png" width="900">
 </p>
-
-## Links
-
-- [Sitio Online](https://storied-kataifi-19f3e7.netlify.app/)
+<p align="center">
+  <img src="src/img/final/Desktop (3).png" width="900">
+</p>
+<p align="center">
+  <img src="src/img/final/Desktop (4).png" width="900">
+</p>
 
 ## Construido con
 
@@ -30,7 +31,7 @@
 - React Router
 - Formik
 - Yup
-- JSON ServerSpin
+- JSON Server
 - SpinKit
 
 ## Autor
